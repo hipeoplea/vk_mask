@@ -1,0 +1,22 @@
+{
+    "name" : "Moons",
+    "preview" : "moons.png",
+    "section": 2,
+   "effects" : [ {"name": "beautify"},
+       { 
+           "name": "patch",
+           "texture": "sun.png",
+           "anchor": "left_cheek",
+           "size": [15, 15],
+           "offset": [-10, 10, 40]
+    },
+    {
+        "name": "patch",
+        "texture": "moon.png",
+        "anchor": "right_cheek",
+        "size": [15, 15],
+        "offset"  : [10, 10, 40]
+
+    }
+    ]
+}
